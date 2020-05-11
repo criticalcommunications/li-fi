@@ -279,9 +279,9 @@ a {
 }
 
 .byline {
-  text-align: center;
-  font-size: 10px;
-  margin-bottom: 10px;
+  text-align: left;
+  font-size: 12pt;
+  margin-bottom: 4px;
 }
 
 .toc {
