@@ -1,6 +1,20 @@
 # Getting Started
 
-Start an HTTP web server from inside this directory, examples:
+1. Clone this repository
+
+  ```sh
+  git clone https://github.com/criticalcommunications/li-fi li-fi
+  ```
+
+2. Navigate to where the repository was cloned to
+
+  ```sh
+  cd li-fi/
+  ```
+
+# Developing Locally
+
+Start an HTTP web server from inside the repository directory, examples:
 
 *Python 3+*
 ```sh
