@@ -67,19 +67,18 @@ a {
 }
 
 .highlight {
-  background: #000;
+  background: green;
   color: #fff;
 }
 
 .fancy-bulb-container {
-  background: #aecad8;
   padding: 40px;
   -webkit-transition: all 0.14s ease-in;
   transition: all 0.14s ease-in;
 }
 
 .fancy-bulb-container.active {
-  background: #fff;
+  background-color: rgb(248, 238, 232);
 }
 
 #on {
@@ -287,4 +286,24 @@ a {
 .iframe-container {
   margin: 0 auto;
   max-width: 560px;
+}
+
+#form {
+  margin: 0 auto;
+  display: block;
+}
+
+#form textarea {
+  margin: 20px auto;
+  display: block;
+}
+
+#form input {
+  margin: 0 auto;
+  display: block;
+}
+
+#formOutput {
+  margin: 20px auto;
+  text-align: center;
 }
