@@ -284,6 +284,7 @@ a {
   margin-bottom: 4px;
 }
 
-.toc {
-  font-family: serif;
+.iframe-container {
+  margin: 0 auto;
+  max-width: 560px;
 }

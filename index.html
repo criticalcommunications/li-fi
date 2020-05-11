@@ -22,20 +22,28 @@
     </h1>
 
     <div class="byline">
-      by Cezar Mocan, Arnab Chakravarty, Adrian Bautista
+      by Cezar Mocan, Arnab Chakravarty, Adrian Bautista, Yeseul Song
     </div>
 
     <div class="byline">
-      NYU ITP Critical Communications 2020 
+      NYU ITP Critical Communications 2020
     </div>
+
     <br/><br/>
-    <h2> Table of Contents </h2>
-    <ul class="toc">
+    <h2>Table of Contents</h2>
+
+    <ul class='toc'>
       <li>
         <a href='#basics'>How Does Li-Fi Work?</a>
       </li>
       <li>
+        <a href='#demo'>Li-Fi in action</a>
+      </li>
+      <li>
         <a href='#future'>A future with Li-Fi</a>
+      </li>
+      <li>
+        <a href='#art'>Related art</a>
       </li>
     </ul>
 
@@ -95,6 +103,35 @@
 
     <br/><br/>
 
+    <h2 id='demo'>Li-Fi in action</h2>
+
+    <p>
+      The interesting nature of the protocol is that it essentially is a big LED in front of a photoresistor.
+      Compared to other RF-based technologies, it can be reworked into existing LED bulb holders. In the following video you can see how it works in principle:
+    </p>
+
+    <p>
+      1) The laser pulses 0s &amp; 1s on the solar cell which is then read on the Arduino Link
+    </p>
+
+    <div class='iframe-container'>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FvyOzlKSkeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <p>
+      2) The laser sends a text entered over serial via the laser and is received on the other side. Link
+    </p>
+
+    <div class='iframe-container'>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kNMVa3e-FEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <p>
+    While there are clear disadvantages of this technology, it can definitely act as a very basic mesh network in areas where infrastructure is an issue. There is also a case to be made for the fact that light can travel underwater and the fact that line of sight access is a feature and not a bug in our surveillance economy, there are niche avenues where this can be used. And, it can also probably lead to <a href="#art">pretty cool art projects</a> too.
+    </p>
+
+    <br/><br/>
+
     <h2 id='future'>A future with LiFi</h2>
     
     <p>LiFi as a concept was introduced almost ten years ago, with working prototypes to showcase the technology following soon after. Since then, a few LiFi focused startups have emerged, by offering consumer level products, as well as business applications targeted towards the retail, manufacturing, aeronautic and communications industries. Large corporations such as <a href="https://fortune.com/2019/10/24/signify-vodafone-lifi-wifi/">Vodafone</a> and <a href="https://venturebeat.com/2019/06/12/oledcomm-and-air-france-team-up-to-deploy-lifi-in-planes/">AirFrance</a> have initiated LiFi pilot projects, and <a href="https://www.ledsmagazine.com/smart-lighting-iot/article/16700600/german-high-school-transmits-lessons-via-the-lights">a few</a> <a href="https://purelifi.com/world-first-as-south-ayrshire-school-pupils-pilot-cutting-edge-lifi-technology/">schools</a> and <a href="https://www.thehindubusinessline.com/news/science/lifi-technology-to-monitor-covid-19-patients/article31287574.ece">hospitals</a> have experimented with it as well. The LiFi market was valued globally at $4.2 billion in 2018, and is expected to <a href="https://www.industryarc.com/Report/15025/LiFi-market.html">grow beyond $140 billion by 2025</a>, at a predicted compound annual growth of over 75%.</p>
@@ -118,6 +155,22 @@
     <p>The next ten to fifteen years of LiFi development are crucial, as they will force us as a society into redefining our set of views around personal privacy. How willing are we to share more about ourselves, if doing so leads to improved access to information, or education? What if accurate indoors location tracking turns out to have a significant environmental impact? We have been tackling similar issues for more than a decade now. The hope is for a future where we all have a say in answering these questions.</p>
 
   </div>
+
+  <br/><br/>
+
+  <h2 id='art'>Related art</h2>
+
+  <p>Artists that work with signal and communication technologies:</p>
+  <ul class='toc'>
+    <li><a href='https://quadrature.co/'>Quadrature</a></li>
+    <li><a href='http://www.haineshinterding.net/'>Haines &amp; Hinterding</a></li>
+  </ul>
+
+  <p>Speculative design:</p>
+  <ul class='toc'>
+    <li><a href='http://dunneandraby.co.uk/content/projects'>Dunne &amp; Raby</a></li>
+    <li><a href='https://itp.nyu.edu/shows/winter2017/data-link/'>Jasmine Soltani's Data Link</a></li>
+  </ul>
 
   <script src="assets/basic.js"></script>
 </body>
