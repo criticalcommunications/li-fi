@@ -277,3 +277,13 @@ a {
     top: 100.75px;
   }
 }
+
+.byline {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.toc {
+  font-family: serif;
+}
