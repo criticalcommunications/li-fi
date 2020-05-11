@@ -1,3 +1,50 @@
+@font-face {
+  font-family: 'GT-Eesti';
+  font-weight: 400;
+  src: url('/assets/GT-Eesti-Text-Book.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'GT-Eesti-Display-Medium';
+  font-weight: 400;
+  src: url('/assets/GT-Eesti-Display-Medium.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'GT-Super';
+  font-weight: 400;
+  src: url('/assets/GT-Super-Display-Light.ttf')  format('truetype');
+}
+html {
+  font-size: 18pt;
+}
+body {
+  font-family: 'GT-Eesti', sans-serif;
+  letter-spacing: 0.06em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: rgb(248, 238, 232);
+  max-width: 1000px;
+  margin: auto;
+}
+h1, h2, h3, h4, p {
+  line-height: 1.35em;
+  font-weight: normal;
+  margin: 0 0 0.6rem;
+  letter-spacing: 0.02em; 
+}
+h1 {
+  font-family: 'GT-Eesti-Display-Medium';
+  font-size: 3.2rem;
+  line-height: 0.96em;
+}
+
+h2 {
+  font-family: 'GT-Super';
+  font-size: 2.8rem;
+  line-height: 0.96em;
+}
+
+
 .container {
   padding: 10px 40px;
   max-width: 960px;
@@ -13,3 +60,4 @@
   height: 0;
   padding-bottom: 56.25%;
 }
+
