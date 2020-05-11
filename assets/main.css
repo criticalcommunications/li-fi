@@ -44,6 +44,11 @@ h2 {
   line-height: 0.96em;
 }
 
+a {
+  color: green;
+  cursor: pointer;
+  text-decoration: underline green dashed;
+}
 
 .container {
   padding: 100px 40px;
